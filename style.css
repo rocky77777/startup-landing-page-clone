@@ -2,20 +2,21 @@
     padding: 0 15px;
 }
 
+/* Navigation Section */
 .top-navigation {
     background-color: white;
 }
 
 .top-navigation > .content {
+    width: 970px;
+    height: 70px;
     margin: 0 auto;
-    height: 4em;
 }
 
 .top-navigation .logo {
     height: 2.5em;
     margin-top: 12px;
     margin-left: 50px;
-	
 }
 
 .top-navigation .links {
