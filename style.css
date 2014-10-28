@@ -1,30 +1,25 @@
-.content {
-    padding: 0 15px;
-}
-
 /* Navigation Section */
 .top-navigation {
     background-color: white;
 }
 
 .top-navigation > .content {
-    width: 970px;
+    width: 770px;
     height: 70px;
     margin: 0 auto;
+    padding: 0px 15px;
 }
 
-.top-navigation .logo {
-    height: 2.5em;
-    margin-top: 12px;
-    margin-left: 50px;
+.content {
+    margin-top: 25px;
 }
 
 .top-navigation .links {
     float: right;
     font-family: 'Roboto', sans-serif;
     color: #838994;
-    font-size: 18px;
-    margin-top: 25px;
+    font-size: 16px;
+    letter-spacing: 0.03em;
 }
 
 .top-navigation .links li {
@@ -32,12 +27,12 @@
     margin-left: 25px;
 }
 
-.top-navigation .links .active {
+.top-navigation .links > .active {
     color: #4c5058;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .top-navigation .links li:hover {
     cursor: pointer;
-    color: #333333;
+    color: #333;
 }
