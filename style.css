@@ -36,3 +36,29 @@
     cursor: pointer;
     color: #333;
 }
+
+html {
+    background: url(http://thinkful-ed.github.io/karma-clone/img/first-background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ 
+}
+
+.content > h1,
+.content > h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+.content h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+}
+
+.content h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+}
