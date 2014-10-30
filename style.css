@@ -75,9 +75,17 @@ button {
     font-size: 1.125rem;
 }
 
-.introduction .buttons > img {
-    position: relative;
-    top: 0.652rem;
-    margin-right: 5px;
+.introduction .buttons {
     color: white;
+    text-align: center;
+    margin-top: 1.563rem;
+}
+
+.introduction .half {
+    width: 49%;
+    padding: 0 0.938rem;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 1.125rem;
+    line-height: 1.2;
 }
