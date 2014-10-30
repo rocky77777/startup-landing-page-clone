@@ -62,3 +62,22 @@ html {
     margin-top: 1.25rem;
     font-size: 1.563rem;
 }
+
+button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+
+.introduction .buttons > img {
+    position: relative;
+    top: 0.652rem;
+    margin-right: 5px;
+    color: white;
+}
